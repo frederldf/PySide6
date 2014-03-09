@@ -18,6 +18,11 @@
 		84BD585818822E950013AF53 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BD585718822E950013AF53 /* Default-568h@2x.png */; };
 		84BD585B18822E950013AF53 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BD585918822E950013AF53 /* MainStoryboard.storyboard */; };
 		84BD585E18822E950013AF53 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD585D18822E950013AF53 /* DemoViewController.m */; };
+		84BD586518823E690013AF53 /* 下載.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84BD586418823E690013AF53 /* 下載.jpeg */; };
+		84BD586A188277040013AF53 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD5869188277040013AF53 /* Circle.m */; };
+		84BD586E188283EF0013AF53 /* a1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84BD586B188283EF0013AF53 /* a1.jpg */; };
+		84BD586F188283EF0013AF53 /* a2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84BD586C188283EF0013AF53 /* a2.jpg */; };
+		84BD5870188283EF0013AF53 /* a3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84BD586D188283EF0013AF53 /* a3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,12 @@
 		84BD585A18822E950013AF53 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		84BD585C18822E950013AF53 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		84BD585D18822E950013AF53 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		84BD586418823E690013AF53 /* 下載.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "下載.jpeg"; sourceTree = "<group>"; };
+		84BD5868188277040013AF53 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		84BD5869188277040013AF53 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		84BD586B188283EF0013AF53 /* a1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a1.jpg; sourceTree = "<group>"; };
+		84BD586C188283EF0013AF53 /* a2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a2.jpg; sourceTree = "<group>"; };
+		84BD586D188283EF0013AF53 /* a3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +94,18 @@
 		84BD584718822E940013AF53 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				84BD586B188283EF0013AF53 /* a1.jpg */,
+				84BD586C188283EF0013AF53 /* a2.jpg */,
+				84BD586D188283EF0013AF53 /* a3.jpg */,
+				84BD586418823E690013AF53 /* 下載.jpeg */,
 				84BD585018822E940013AF53 /* DemoAppDelegate.h */,
 				84BD585118822E940013AF53 /* DemoAppDelegate.m */,
 				84BD585918822E950013AF53 /* MainStoryboard.storyboard */,
 				84BD585C18822E950013AF53 /* DemoViewController.h */,
 				84BD585D18822E950013AF53 /* DemoViewController.m */,
 				84BD584818822E940013AF53 /* Supporting Files */,
+				84BD5868188277040013AF53 /* Circle.h */,
+				84BD5869188277040013AF53 /* Circle.m */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -164,6 +181,10 @@
 				84BD585618822E950013AF53 /* Default@2x.png in Resources */,
 				84BD585818822E950013AF53 /* Default-568h@2x.png in Resources */,
 				84BD585B18822E950013AF53 /* MainStoryboard.storyboard in Resources */,
+				84BD586518823E690013AF53 /* 下載.jpeg in Resources */,
+				84BD586E188283EF0013AF53 /* a1.jpg in Resources */,
+				84BD586F188283EF0013AF53 /* a2.jpg in Resources */,
+				84BD5870188283EF0013AF53 /* a3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +198,7 @@
 				84BD584E18822E940013AF53 /* main.m in Sources */,
 				84BD585218822E940013AF53 /* DemoAppDelegate.m in Sources */,
 				84BD585E18822E950013AF53 /* DemoViewController.m in Sources */,
+				84BD586A188277040013AF53 /* Circle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +321,7 @@
 				84BD586318822E950013AF53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
