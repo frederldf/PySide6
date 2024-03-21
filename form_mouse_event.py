@@ -1,5 +1,5 @@
 """
-程式名稱：form_mouse_event1.py
+程式名稱：form_mouse_event.py
 程式功能：
 1. 視窗滑鼠事件了解
 """
